@@ -1,0 +1,42 @@
+.exam-wrap {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 16px;
+    font-family: Arial, sans-serif;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.question-card {
+    border: 1px solid #ddd;
+    padding: 16px;
+    border-radius: 6px;
+    background: #fff;
+}
+.q-text {
+    font-size: 16px;
+}
+.controls button,
+.nav button,
+.marking button {
+    margin: 8px 6px;
+    padding: 8px 12px;
+}
+.marking .good {
+    background: #d4f7d4;
+}
+.marking .bad {
+    background: #ffd6d6;
+}
+.steps pre {
+    background: #f7f7f7;
+    padding: 8px;
+    border-radius: 4px;
+    white-space: pre-wrap;
+}
+.summary {
+    margin-top: 10px;
+    color: #555;
+}
